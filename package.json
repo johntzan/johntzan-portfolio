@@ -1,7 +1,6 @@
 {
     "name": "johntzan-portfolio",
     "description": "John Tzanidakis Dev Portfolio",
-    "version": "1.0",
     "scripts": {
         "develop": "gatsby develop",
         "build": "gatsby build",

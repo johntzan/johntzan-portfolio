@@ -12,9 +12,7 @@ module.exports = {
         head: true
       }
     }
-  ], {
-    pathPrefix: "/johntzan-site"
-  },
+  ],
   siteMetadata: {
     title: "John Tzanidakis",
     description: "Mobile & Web Developer",

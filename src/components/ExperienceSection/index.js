@@ -19,14 +19,15 @@ class ExperienceSection extends React.Component {
             business/shopping apps. Built and published shoe cleaning service applications that allow customers to photograph shoes
             and submit them to a cleaning service, with dedicated apps for the customer, delivery person,
             and cleaner."
-            link="Play Store link:
-            https://play.google.com/store/apps/details?id=com.rozilo.shooego.prod"/>
+            link="https://play.google.com/store/apps/details?id=com.rozilo.shooego.prod"
+          />
           <ExperienceUnit
             logo={BindoLogo}
             colour="#FFFFFF"
             title="Android Dev Intern - Bindo Labs"
             timeperiod="Nov 2014 - April 2015"
-            subtitle="Developing various android apps from start to store release, Learning new languages and applying to projects. Mainly developing a signup Android App for service provided."/>
+            subtitle="Developing various android apps from start to store release, Learning new languages and applying to projects. Mainly developing a signup Android App for service provided."
+          />
         </div>
       </Section>
     );

@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 
 import "../unit-style.scss";
 
@@ -9,17 +9,23 @@ class ExperienceUnit extends Component {
         <div
           className="image"
           style={{
-          backgroundImage: `url(${this.props.logo})`,
-          backgroundColor: this.props.colour
-        }}/>
+            backgroundImage: `url(${this.props.logo})`,
+            backgroundColor: this.props.colour
+          }}
+        />
 
         <div className="title bold">{this.props.title}</div>
         <div className="time-period">{this.props.timeperiod}</div>
         <div className="subtitle">{this.props.subtitle}</div>
-        <div className="subtitle">{this.props.link
-            ? this.props.link
-            : ''}</div>
-
+        <div className="subtitle">
+          {this.props.link ? (
+            <a href={this.props.link} target="_blank">
+              Link to App in Play Store
+            </a>
+          ) : (
+            ""
+          )}
+        </div>
       </div>
     );
   }

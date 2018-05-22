@@ -1,26 +1,26 @@
 {
-    "name": "johntzan-portfolio",
-    "description": "John Tzanidakis Dev Portfolio",
-    "scripts": {
-        "develop": "gatsby develop",
-        "build": "gatsby build",
-        "serve": "gatsby serve",
-        "deploy": "gatsby build --prefix-paths && gh-pages -d public"
-    },
-    "dependencies": {
-        "flexboxgrid": "^6.3.1",
-        "font-awesome": "^4.7.0",
-        "gatsby": "^1.9.238",
-        "gatsby-link": "^1.6.39",
-        "gatsby-plugin-google-analytics": "^1.0.24",
-        "gatsby-plugin-google-fonts": "0.0.4",
-        "gatsby-plugin-sass": "^1.0.23",
-        "include-media": "^1.4.9",
-        "milligram-scss": "^1.3.0",
-        "react-helmet": "^5.2.0",
-        "react-image-lightbox": "^5.0.0"
-    },
-    "devDependencies": {
-        "gh-pages": "^1.1.0"
-    }
+  "name": "johntzan-portfolio",
+  "description": "John Tzanidakis Dev Portfolio",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "flexboxgrid": "^6.3.1",
+    "font-awesome": "^4.7.0",
+    "gatsby": "^1.9.238",
+    "gatsby-link": "^1.6.39",
+    "gatsby-plugin-google-analytics": "^1.0.24",
+    "gatsby-plugin-google-fonts": "0.0.4",
+    "gatsby-plugin-sass": "^1.0.23",
+    "include-media": "^1.4.9",
+    "milligram-scss": "^1.3.0",
+    "react-helmet": "^5.2.0",
+    "react-image-lightbox-universal": "^0.0.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
 }

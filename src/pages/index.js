@@ -4,7 +4,7 @@ import ProjectsSection from "../components/ProjectsSection";
 import EducationSection from "../components/EducationSection";
 import About from "../components/Sidebar/About";
 import Links from "../components/Sidebar/Links";
-import "react-image-lightbox/style.css"; // This only needs to be imported once in your app
+import "react-image-lightbox-universal/dist/umd/bundle.min.css"; // This only needs to be imported once in your app
 
 import "./style.scss";
 import EducationUnit from "../components/EducationUnit";

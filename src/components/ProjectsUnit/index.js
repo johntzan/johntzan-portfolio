@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import "../unit-style.scss";
-import Lightbox from "react-image-lightbox";
+import Lightbox from "react-image-lightbox-universal";
 class ProjectsUnit extends Component {
   constructor(props) {
     super(props);

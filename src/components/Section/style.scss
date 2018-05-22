@@ -1,51 +1,53 @@
-@import '../../assets/scss/main.scss';
-$vertical-padding: 50px;
+@import "../../assets/scss/main.scss";
+$vertical-padding: 20px;
 $horizontal-padding: 64px;
 $main-width: 65%;
 $main-margin-right: 35%;
 $aside-width: 35%;
 .section {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    @include media('>=large') {
-        $main-width: 65%;
-        $main-margin-right: 35%;
-        $vertical-padding: 50px;
-        $horizontal-padding: 8%;
-        width: $main-width;
-        margin-right: $main-margin-right;
-        padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
-    }
-    @include media('>=medium', '<large') {
-        $main-width: 70%;
-        $main-margin-right: 30%;
-        $vertical-padding: 50px;
-        $horizontal-padding: 8%;
-        width: $main-width;
-        margin-right: $main-margin-right;
-        padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
-    }
-    @include media('>xsmall', '<medium') {
-        $main-width: 100%;
-        $main-margin-right: 0;
-        $vertical-padding: 50px;
-        $horizontal-padding: 48px;
-        width: $main-width;
-        margin-right: $main-margin-right;
-        padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
-    }
-    @include media('<=xsmall') {
-        $main-width: 100%;
-        $main-margin-right: 0;
-        $vertical-padding: 50px;
-        $horizontal-padding: 24px;
-        width: $main-width;
-        margin-right: $main-margin-right;
-        padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
-    }
-    h6 {
-        font-size: 2rem;
-        padding-bottom: 5px;
-        margin-bottom: 10px;
-    }
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @include media(">=large") {
+    $main-width: 65%;
+    $main-margin-right: 35%;
+    $vertical-padding: 20px;
+    $horizontal-padding: 8%;
+    width: $main-width;
+    margin-right: $main-margin-right;
+    padding: $vertical-padding $horizontal-padding $vertical-padding
+      $horizontal-padding;
+  }
+  @include media(">=medium", "<large") {
+    $main-width: 70%;
+    $main-margin-right: 30%;
+    $vertical-padding: 20px;
+    $horizontal-padding: 8%;
+    width: $main-width;
+    margin-right: $main-margin-right;
+    padding: $vertical-padding $horizontal-padding $vertical-padding
+      $horizontal-padding;
+  }
+  @include media(">xsmall", "<medium") {
+    $main-width: 100%;
+    $main-margin-right: 0;
+    $vertical-padding: 20px;
+    $horizontal-padding: 48px;
+    width: $main-width;
+    margin-right: $main-margin-right;
+    padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
+  }
+  @include media("<=xsmall") {
+    $main-width: 100%;
+    $main-margin-right: 0;
+    $vertical-padding: 20px;
+    $horizontal-padding: 24px;
+    width: $main-width;
+    margin-right: $main-margin-right;
+    padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
+  }
+  h6 {
+    font-size: 2rem;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
 }

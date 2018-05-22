@@ -4,6 +4,7 @@ import ProjectsSection from "../components/ProjectsSection";
 import EducationSection from "../components/EducationSection";
 import About from "../components/Sidebar/About";
 import Links from "../components/Sidebar/Links";
+import "react-image-lightbox/style.css"; // This only needs to be imported once in your app
 
 import "./style.scss";
 import EducationUnit from "../components/EducationUnit";
@@ -14,28 +15,27 @@ const IndexPage = () => (
       <div className="header">
         <h5>
           Hi, I'm
-          <span className="bold">
-            &nbsp;John Tzanidakis</span>
+          <span className="bold">&nbsp;John Tzanidakis</span>
         </h5>
 
         <h3 className="bold">
-          Mobile and Web Developer with 2 years experience building mobile apps with
-          Android & React-Native and Full Stack Web apps with React, Redux, NodeJS, and
-          Angular.
+          Mobile and Web Developer with 2 years experience building mobile apps
+          with Android & React-Native and Full Stack Web apps with React, Redux,
+          NodeJS, and Angular.
         </h3>
       </div>
 
-      <ProjectsSection/>
-      <ExperienceSection/>
-      <EducationSection/>
+      <ProjectsSection />
+      <ExperienceSection />
+      <EducationSection />
     </div>
 
     <div className="aside">
       <div className="top">
-        <About/>
+        <About />
       </div>
       <div className="bottom">
-        <Links/>
+        <Links />
       </div>
     </div>
   </div>

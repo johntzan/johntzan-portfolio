@@ -8,7 +8,7 @@ import RoziloLogo from "../../assets/images/experience/rozilo-logo.jpg";
 class ExperienceSection extends React.Component {
   render() {
     return (
-      <Section title="Experience">
+      <Section title="Work Experience">
         <div className="row">
           <ExperienceUnit
             logo={RoziloLogo}

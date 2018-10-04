@@ -19,9 +19,9 @@ const IndexPage = () => (
         </h5>
 
         <h3 className="bold">
-          Mobile and Web Developer with 2 years experience building mobile apps
+          Mobile and Web Developer with 2+ years experience building Mobile apps
           with Android & React-Native and Full Stack Web apps with React, Redux,
-          NodeJS, and Angular.
+          and NodeJS.
         </h3>
       </div>
 

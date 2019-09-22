@@ -19,14 +19,14 @@ const IndexPage = () => (
         </h5>
 
         <h3 className="bold">
-          Mobile and Web Developer with 2+ years experience building Mobile apps
-          with Android & React-Native and Full Stack Web apps with React, Redux,
-          and NodeJS.
+          Mobile and Web Developer with 4+ years experience building Mobile apps
+          with Android & React-Native and Full Stack Web apps with React,
+          NodeJS, and Postgres.
         </h3>
       </div>
 
-      <ProjectsSection />
       <ExperienceSection />
+      <ProjectsSection />
       <EducationSection />
     </div>
 

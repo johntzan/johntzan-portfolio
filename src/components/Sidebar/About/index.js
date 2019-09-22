@@ -9,8 +9,9 @@ class About extends Component {
         <div className="image" />
         <div className="bio">
           Born and raised in NYC, I'm either building apps, playing soccer or
-          relaxing on a beach somewhere warm. Currently freelancing with Upwork and privately. Available for both full-time or
-          contract work. Shoot me an email if you're interested in working together.
+          relaxing on a beach somewhere warm. Currently working remote full-time
+          @ Syntx. Shoot me an email if you'd like to learn more about me or
+          what we're working on.
         </div>
       </div>
     );

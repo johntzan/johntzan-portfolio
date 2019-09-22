@@ -32,7 +32,7 @@ class ProjectsSection extends React.Component {
             github={null}
             title="NYC Building Violations"
             link={"https://nyc-buildings.appspot.com/"}
-            timeperiod="October 2018 - Present"
+            timeperiod="October 2018 - December 2018"
             subtitle="A Violation Notification System for NYC Building Owners. Daily checks for new building violations and push notifications right to your phone!"
             tech="React Native, NodeJS, Puppeteer, Google App Engine, Firebase, InApp Subscriptions/Purchases iOS/Android"
           />
@@ -71,7 +71,7 @@ class ProjectsSection extends React.Component {
             link={
               "https://play.google.com/store/apps/details?id=com.livedigital.bingereport"
             }
-            timeperiod="May 2018 - Present"
+            timeperiod="May 2018 - December 2018"
             subtitle="Binge Report is your go-to app for following all the latest in TV news. This project involved developing a React Native Mobile app that replicates a Web app built with React by a client. "
             tech="React Native, Redux"
           />
@@ -82,7 +82,7 @@ class ProjectsSection extends React.Component {
             github={"https://bitbucket.org/yiannitzan/restaurants/src/master/"}
             title="The Restaurant Community"
             link="https://therestaurantcommunity.herokuapp.com/"
-            timeperiod="Jan 2018 - Present"
+            timeperiod="Jan 2018 - December 2018"
             subtitle="A “Waze” for restaurant owners and managers to report the location of the health department."
             tech="React Native, Redux, Firebase, NodeJS"
           />
@@ -93,7 +93,7 @@ class ProjectsSection extends React.Component {
             title="FUT Stats & Leaderboards"
             github="https://github.com/johntzan/FutWeekendLeagueStats"
             link="https://play.google.com/store/apps/details?id=com.weekendleague.stats.prod"
-            timeperiod="January 2017 - present"
+            timeperiod="January 2017 - December 2018"
             subtitle="App for entering and maintaining in-game stats and leaderboards from video game franchise
             FIFA by EA Sports"
             tech="Android (Java), Backend-NodeJS"
@@ -105,7 +105,7 @@ class ProjectsSection extends React.Component {
             title="FUT Stats  Web"
             github="https://github.com/johntzan/Fut-Stats-Web"
             link="https://fut-stats.firebaseapp.com"
-            timeperiod="December 2017 - present"
+            timeperiod="December 2017 - December 2018"
             subtitle="Web App for entering and maintaining in-game stats from video game franchise
             FIFA by EA Sports"
             tech="ReactJS, Firebase"
